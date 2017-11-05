@@ -22,7 +22,7 @@ def form():
 
 @post('/plot')
 def submit():
-    # grab data from form
+    # grab data from form ***
     Y01 = request.forms.get('Y01')
     Y02 = request.forms.get('Y02')
     Y03 = request.forms.get('Y03')
